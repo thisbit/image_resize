@@ -1,7 +1,30 @@
-# Image Resize
-Script adds a simple productivity feature to your workflow if you find yourself having to resize multiple files often. Best used if you add a symlink to your machine so it can be ran from any folder.
+# Image Resize Helper for MMPEG
 
-> sudo ln -s /path/to/where/the/script/is/located symlinkname
+This is a small script that makes it easier to use FFMPEG to manage resizing images in bulk. Before you can use this, you first have to install [FFMPEG](https://ffmpeg.org/).
 
-There are many better solutions then this ... but this one is mine. :D Use it or abuse it if you like.
-Bye
+## Installation
+Once you have FFMPEG working this is how you make this work:
+- download the `image_resize.sh` file to your computer and store it in a folder for scripts in your account (for example <username>/scripts)
+- make the script executable by running this comand `sudo +x ./image_resize.sh`
+- check the script is working by running `./image_resize.sh`, you should get the prompt asking you to choose the image format, exit the script by presing `CTRL + C`, if you did not get the prompt asking for image format, you either misstyped something, or there is some other problem, you will have to debug that issue
+- once you got the script working, it is recomended to create a symlink so you can easily run the script from anywhere on your computer
+- run this command in the terminal: `sudo ln -s /path/to/where/the/file/is/located/image_resize.sh` symlinkname (replace the path to where... with actual path to the file on your machine, and symlinkname with the name of the command you with to run this util with, i use `image_resize`)
+- if you do not know the path to your file, go to the folder where you script is located (with the terminal) and type: `pwd` you will get the path, and just add the file name at the end of that path
+- close the terminal, and open it again, type `which symlinkname` (use the actual symlink name you created), and terminal should ouput the path to the file, if the path is correct, you should be done
+
+## Usage
+- Go to the folder with the images you want to resize
+- Type `symlinkname` (use actual symlinkname you have created)
+- Prompt will appear asking for fileformats
+- Type the number that is in front of the option you need/want
+- Confirm with Enter key
+- Prompt appears asking for image width
+- Enter the desired image width (number only, no px)
+- Confirm with Enter key
+- Prompt appears asking the name of the folder where to save the reduce images (folder will be created in the current folder)
+- Type the name and confirm with Enter key
+- Wait untile conversion is done
+- Go to the file manager and ispect the images
+
+## Bye
+Hope you find this useful
