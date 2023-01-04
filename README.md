@@ -2,6 +2,11 @@
 
 This is a small script that makes it easier to use FFMPEG to manage resizing images in bulk. Before you can use this, you first have to install [FFMPEG](https://ffmpeg.org/).
 
+# Showcase
+[image-format.webm](https://user-images.githubusercontent.com/53581066/210546652-ba69340e-9850-470b-a7e9-431d25a137f2.webm)
+
+[image-size-folder.webm](https://user-images.githubusercontent.com/53581066/210546729-2c63854a-34eb-4814-a276-921f41045364.webm)
+
 ## Installation
 Once you have FFMPEG working this is how you make this work:
 - download the `image_resize.sh` file to your computer and store it in a folder for scripts in your account (for example <username>/scripts)
