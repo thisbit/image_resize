@@ -2,10 +2,12 @@
 
 This is a small script that makes it easier to use FFMPEG to manage resizing images in bulk. Before you can use this, you first have to install [FFMPEG](https://ffmpeg.org/).
 
-# Showcase
-[image-format.webm](https://user-images.githubusercontent.com/53581066/210546652-ba69340e-9850-470b-a7e9-431d25a137f2.webm)
+## Showcase
+### First step
+[Select JPG file format to reduce](https://user-images.githubusercontent.com/53581066/210546652-ba69340e-9850-470b-a7e9-431d25a137f2.webm)
 
-[image-size-folder.webm](https://user-images.githubusercontent.com/53581066/210546729-2c63854a-34eb-4814-a276-921f41045364.webm)
+## Second step
+[Set desired image width and the name for the output folder](https://user-images.githubusercontent.com/53581066/210546729-2c63854a-34eb-4814-a276-921f41045364.webm)
 
 ## Installation
 Once you have FFMPEG working this is how you make this work:
