@@ -3,7 +3,10 @@
 This is a small script that makes it easier to use FFMPEG to manage resizing images in bulk. Before you can use this, you first have to install [FFMPEG](https://ffmpeg.org/).
 
 ## Demo
-[Usage demo](https://user-images.githubusercontent.com/53581066/210776976-50b00863-d35a-47c7-b0c7-3ae2ed1460b3.mp4)
+[Usage demo](https://user-images.githubusercontent.com/53581066/210777981-f5bfe4ce-2527-4871-9239-01371ddf9332.mp4)
+
+
+
 
 ## Installation
 Once you have FFMPEG working this is how you make this work:
