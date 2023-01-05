@@ -1,4 +1,4 @@
-# Image Resize Helper for MMPEG
+# Image Resize Helper for FFMPEG
 
 This is a small script that makes it easier to use FFMPEG to manage resizing images in bulk. Before you can use this, you first have to install [FFMPEG](https://ffmpeg.org/).
 
@@ -11,11 +11,11 @@ This is a small script that makes it easier to use FFMPEG to manage resizing ima
 
 ## Installation
 Once you have FFMPEG working this is how you make this work:
-- download the `image_resize.sh` file to your computer and store it in a folder for scripts in your account (for example <username>/scripts)
+- download the `image_resize.sh` file to your computer and store it in a folder for scripts in your account (for example `<username>/scripts`)
 - make the script executable by running this comand `sudo +x ./image_resize.sh`
 - check the script is working by running `./image_resize.sh`, you should get the prompt asking you to choose the image format, exit the script by presing `CTRL + C`, if you did not get the prompt asking for image format, you either misstyped something, or there is some other problem, you will have to debug that issue
 - once you got the script working, it is recomended to create a symlink so you can easily run the script from anywhere on your computer
-- run this command in the terminal: `sudo ln -s /path/to/where/the/file/is/located/image_resize.sh` symlinkname (replace the path to where... with actual path to the file on your machine, and symlinkname with the name of the command you with to run this util with, i use `image_resize`)
+- run this command in the terminal: `sudo ln -s /path/to/where/the/file/is/located/image_resize.sh /usr/local/bin/symlinkname` (replace the path to where... with actual path to the file on your machine, and symlinkname with the name of the command you with to run this util with, i use `image_resize`)
 - if you do not know the path to your file, go to the folder where you script is located (with the terminal) and type: `pwd` you will get the path, and just add the file name at the end of that path
 - close the terminal, and open it again, type `which symlinkname` (use the actual symlink name you created), and terminal should ouput the path to the file, if the path is correct, you should be done
 
